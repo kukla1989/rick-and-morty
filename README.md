@@ -1,6 +1,8 @@
 ### Available Scripts
 
-### `npm run lint`      run ESLint tests and automatically fix issues
+### `npm run lint`  run ESLint tests and automatically fix issues
+
+### `npm run format`    format our codes with using prettier
 
 ### `npm test`  Launches the test runner in the interactive watch mode.\
 
