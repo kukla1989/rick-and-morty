@@ -1,5 +1,9 @@
-.starter {
-  font-size: 18px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  $cBlackMain: #202329;
 }
+@import '_utils/fonts/_vars';
+@import "_utils/fonts/normalize";
 
 @import 'components/Main/Main.scss';

@@ -1,18 +1,11 @@
 import React from 'react';
 import './App.scss';
-import { Navigate, Route, Routes } from 'react-router-dom';
-import { Main } from './components/Main/Main';
-import { Character } from './components/CharacterPage/Character';
+import { Outlet } from 'react-router-dom';
+import { Header } from './components/Header/Header';
 
-export const App: React.FC = () => {
-  return (
-    <div className="starter">
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/home" element={<Navigate to="/" />} />
-        <Route path="/character" element={<Character />} />
-        <Route path="*" element={<Main />} />
-      </Routes>
-    </div>
-  );
-};
+export const App: React.FC = () => (
+  <div className="App">
+    <Header />
+    <Outlet />
+  </div>
+);

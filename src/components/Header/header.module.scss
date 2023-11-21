@@ -1,0 +1,23 @@
+@import '../../_utils/fonts/_vars.scss';
+
+.header {
+  background: white;
+}
+
+.iconRandMWrapper {
+  padding: 10px 27px 10px 27px;
+}
+
+.headerMain {
+  height: 345px;
+  background: url("../../images/rick-and-morty-header-main.svg") no-repeat center;
+  background-size: contain;
+}
+
+.title {
+  font-weight: 900;
+  color: $cBlackMain;
+  font-size: 101px;
+  line-height: 111px;
+  text-align: center;
+}
